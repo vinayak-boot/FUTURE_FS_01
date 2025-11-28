@@ -29,15 +29,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="hero-image-section">
-                    <div className="image-card">
-                        <img src="/FUTURE_FS_01/profile.jpg" alt="Vinayak Soni" className="profile-img" />
-                        <div className="image-overlay"></div>
-                    </div>
-                    <div className="floating-icon icon-react"><i className="ri-reactjs-line"></i></div>
-                    <div className="floating-icon icon-node"><i className="ri-nodejs-line"></i></div>
-                    <div className="floating-icon icon-code"><i className="ri-code-s-slash-line"></i></div>
-                </div>
+
             </div>
             <div className="hero-visual">
                 <div className="glowing-circle"></div>
