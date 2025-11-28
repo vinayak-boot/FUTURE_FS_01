@@ -25,12 +25,25 @@ const Hero = () => {
                     <div className="social-icons-hero">
                         <a href="https://www.linkedin.com/in/vinayak-soni-593273397/" target="_blank" rel="noreferrer"><i className="ri-linkedin-fill"></i></a>
                         <a href="https://github.com/vinayak-boot" target="_blank" rel="noreferrer"><i className="ri-github-fill"></i></a>
-                    </div>
-                    <div className="hero-visual">
-                        <div className="glowing-circle"></div>
+                        <a href="mailto:vinayaksoni446@gmail.com"><i className="ri-mail-fill"></i></a>
                     </div>
                 </div>
-                );
+
+                <div className="hero-image-section">
+                    <div className="image-card">
+                        <img src="/FUTURE_FS_01/profile.jpg" alt="Vinayak Soni" className="profile-img" />
+                        <div className="image-overlay"></div>
+                    </div>
+                    <div className="floating-icon icon-react"><i className="ri-reactjs-line"></i></div>
+                    <div className="floating-icon icon-node"><i className="ri-nodejs-line"></i></div>
+                    <div className="floating-icon icon-code"><i className="ri-code-s-slash-line"></i></div>
+                </div>
+            </div>
+            <div className="hero-visual">
+                <div className="glowing-circle"></div>
+            </div>
+        </div>
+    );
 };
 
-                export default Hero;
+export default Hero;
