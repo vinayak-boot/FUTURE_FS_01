@@ -4,6 +4,14 @@ import './Projects.css';
 const Projects = () => {
     const projects = [
         {
+            title: "TechNova",
+            description: "Delivering the future of technology news directly to your screen with immersive 3D experiences.",
+            tech: ["React", "3D", "Vercel"],
+            link: "https://technova-smoky-omega.vercel.app/",
+            github: "https://github.com/vinayak-boot",
+            icon: "ri-newspaper-line"
+        },
+        {
             title: "Netflix Homepage Clone",
             description: "A responsive clone of the Netflix homepage using HTML and CSS. Features Flexbox layout, section-wise content design, footer grid layout, and is deployed on GitHub.",
             tech: ["HTML", "CSS", "Flexbox", "GitHub"],
